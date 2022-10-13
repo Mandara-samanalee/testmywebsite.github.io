@@ -1,3 +1,5 @@
+//form validation//
+
 var tablinks= document.getElementsByClassName("tab-links");
         var tabcontents= document.getElementsByClassName("tab-contents");
         function opentab(tabname){
@@ -10,3 +12,4 @@ var tablinks= document.getElementsByClassName("tab-links");
             event.currentTarget.classList.add("active-links");
             document.getElementById(tabname).classList.add("active-tabs");
         }
+
